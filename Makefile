@@ -16,4 +16,8 @@ push:
 	git add .
 	git commit -m $(var)
 	git push -u origin main
- 
+readme:
+	@echo "Adding README.md to the repository..."
+	git add README.md
+	git commit -m "Add README.md"
+	git push -u origin main
